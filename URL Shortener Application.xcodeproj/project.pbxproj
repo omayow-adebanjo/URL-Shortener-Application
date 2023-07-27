@@ -78,12 +78,8 @@
 		4F6701372A7300A1009EF8C5 /* URL Shortener Application */ = {
 			isa = PBXGroup;
 			children = (
-				4F6701382A7300A1009EF8C5 /* AppDelegate.swift */,
-				4F67013A2A7300A1009EF8C5 /* SceneDelegate.swift */,
-				4F67013C2A7300A1009EF8C5 /* ViewController.swift */,
-				4F67013E2A7300A1009EF8C5 /* Main.storyboard */,
-				4F6701412A7300A1009EF8C5 /* Assets.xcassets */,
-				4F6701432A7300A1009EF8C5 /* LaunchScreen.storyboard */,
+				4F6701692A730345009EF8C5 /* Controllers */,
+				4F6701682A73032F009EF8C5 /* Support */,
 				4F6701462A7300A1009EF8C5 /* Info.plist */,
 			);
 			path = "URL Shortener Application";
@@ -95,6 +91,26 @@
 				4F67014F2A7300A1009EF8C5 /* URL_Shortener_ApplicationTests.swift */,
 			);
 			path = "URL Shortener ApplicationTests";
+			sourceTree = "<group>";
+		};
+		4F6701682A73032F009EF8C5 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				4F6701382A7300A1009EF8C5 /* AppDelegate.swift */,
+				4F67013A2A7300A1009EF8C5 /* SceneDelegate.swift */,
+				4F67013E2A7300A1009EF8C5 /* Main.storyboard */,
+				4F6701432A7300A1009EF8C5 /* LaunchScreen.storyboard */,
+				4F6701412A7300A1009EF8C5 /* Assets.xcassets */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		4F6701692A730345009EF8C5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4F67013C2A7300A1009EF8C5 /* ViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
